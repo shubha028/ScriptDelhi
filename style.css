@@ -59,3 +59,41 @@ a.nav-link:hover:before {
 #first{
 	text-align: center;
 }
+
+
+
+/*-----------ourTeam----------------*/
+
+.ourTeam{
+ margin: 100px 0px;
+ text-align: center;
+}
+
+.ourTeam hr{
+  width: 200px;
+  line-height: 20px;
+}
+
+.profile{
+  margin: 20px 0px;
+  width: 100%;
+  text-align: center;
+}
+.profile img{
+  width: 80%;
+  margin: 10%;
+  border-radius: 50%;
+  border: 2px solid grey;
+}
+
+@media (max-width:756px){
+  .profile{
+    margin: 20px 0px;
+  }
+ .profile h2{
+   font-size: 20px;
+ }
+ .profile h4{
+   font-size: 16px;
+ }
+}

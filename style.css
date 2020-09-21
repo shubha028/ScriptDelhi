@@ -63,7 +63,10 @@ a.nav-link:hover:before {
     margin: 100px 0px;
     text-align: center;
 }
-
+.ourMissionH{
+    width: 80%;
+    margin: 10px auto;
+}
 #first {
     text-align: center;
 }
@@ -90,9 +93,13 @@ hr {
 
 .profile img {
     width: 80%;
+    max-width: 200px;
+    height: 200px;
+    background-position: center;
     margin: 10%;
     border-radius: 50%;
-    border: 2px solid grey;
+    border: 1px solid black;
+    box-shadow: 2px 3px 24px grey;
 }
 
 .events {
